@@ -6,6 +6,7 @@ The current layout works in portrait orientation,however I might add an alternat
 Video , demonstrating the app - > https://youtu.be/gq5UzvojkNk
 
 Image credits:
+
 House1.jpg - Photo by Binyamin Mellish: https://www.pexels.com/photo/house-lights-turned-on-106399/
 
 house2 - Photo by Binyamin Mellish: https://www.pexels.com/photo/brown-and-gray-painted-house-in-front-of-road-1396122/
