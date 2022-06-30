@@ -68,7 +68,7 @@ fun PropertyCardContent(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
             .width(width = 192.dp)
-            .padding(top = 8.dp, start = 8.dp, end = 8.dp, bottom = 4.dp)
+            .padding(top = 8.dp, start = 8.dp, end = 8.dp)
     ) {
         Surface(
             shape = MaterialTheme.shapes.medium
@@ -84,17 +84,11 @@ fun PropertyCardContent(modifier: Modifier = Modifier) {
         Row(
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            Text(
-                text = "Beautiful home 1 ",
-                style = MaterialTheme.typography.h3,
-                modifier = Modifier
-                    .weight(1f)
-                    .paddingFromBaseline(top = 12.dp)
 
-            )
             Text(
                 text = "$560,000",
                 style = MaterialTheme.typography.h3,
+                modifier = Modifier.weight(1f)
             )
             IconButton(onClick = { expanded = !expanded }
             ) {
@@ -112,6 +106,8 @@ fun PropertyCardContent(modifier: Modifier = Modifier) {
     }
 
 }
+
+
 
 
 @Preview(showBackground = true)
