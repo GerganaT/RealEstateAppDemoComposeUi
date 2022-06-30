@@ -2,4 +2,21 @@
     <string name="app_name">RealEstateAppDemoComposeUi</string>
     <string name="content_desc_show_less">Show less</string>
     <string name="content_desc_show_more">Show more</string>
+    <string name="real_estate_description_placeholder">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum ipsum sed
+        nisl sagittis pulvinar. Nulla et pulvinar orci. Phasellus lobortis fringilla ante
+        ut viverra. Aenean at varius metus, sed faucibus lectus. Donec a vehicula neque.
+        Cras sit amet porta.
+    </string>
+    <string name="description_headline">Description</string>
+    <string name="content_desc_bedrooms_count">Bedrooms count</string>
+    <string name="content_desc_bathrooms_count">Bathrooms count</string>
+    <string name="content_desc_space_in_square_feet">Space in square feet</string>
+    <string name="bedrooms_count_default">4</string>
+    <string name="bathrooms_count_default">2</string>
+    <string name="square_feet">1234 sq.ft.</string>
+    <string name="content_desc_gallery_item">GalleryItem</string>
+    <string name="gallery_label">Gallery</string>
+    <string name="bottom_navigation_favorites">Favorites</string>
+    <string name="bottom_navigation_all">All</string>
 </resources>

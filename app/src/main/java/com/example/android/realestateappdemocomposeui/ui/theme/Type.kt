@@ -1,6 +1,5 @@
 package com.example.android.realestateappdemocomposeui.ui.theme
 
-import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Typography
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
@@ -26,10 +25,22 @@ private val fontFamilyRaleway = FontFamily(
 // Set of Material typography styles to start with
 val Typography = Typography(
     defaultFontFamily = fontFamilyRaleway,
+    h2 = TextStyle(
+        color = Color.Black,
+        fontWeight = FontWeight.Normal,
+        fontSize = 32.sp,
+        letterSpacing = 0.sp
+    ),
     h3 = TextStyle(
         color = Color.Black,
         fontWeight = FontWeight.Normal,
-        fontSize = 10.sp,
+        fontSize = 18.sp,
+        letterSpacing = 0.sp
+    ),
+    h4 = TextStyle(
+        color = Color.Black,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp,
         letterSpacing = 0.sp
     )
     /* Other default text styles to override
